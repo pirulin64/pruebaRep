@@ -84,5 +84,11 @@ public class Date {
     } catch (ParseException e) {
       return false;
     }
+<<<<<<< HEAD
+=======
+    public void methodAddedByOwner(){
+      System.out.println("Method added by the owner");
+    }
+>>>>>>> 9604ae4037c6f4b3b15157dfc859674d37b4dd47
   }
 }
