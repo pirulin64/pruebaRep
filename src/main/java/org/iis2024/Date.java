@@ -16,6 +16,7 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 public class Date {
+  private int colaborador_variable;
   private final int day;
   private final int month;
   private final int year;
@@ -83,14 +84,20 @@ public class Date {
     } catch (ParseException e) {
       return false;
     }
+<<<<<<< HEAD
+=======
     public void methodAddedByOwner(){
       System.out.println("Method added by the owner");
     }
+<<<<<<< HEAD
     // Constructor modified by the owner
     public Date(int dia, int mes, int año) {
       this.day = dia;
       this.month = mes;
       this.year = año;
     }
+=======
+>>>>>>> 9604ae4037c6f4b3b15157dfc859674d37b4dd47
+>>>>>>> 0ca35df0652894ae3ec01a5ae242a48d4d280a80
   }
 }
